@@ -500,8 +500,7 @@ letter-spacing: 0.02em;
     display: flex;
     gap: 24px;
 }
-.form-label {
-}
+
 .form-input {
     width: 264px;
     height: 40px; 
@@ -516,7 +515,29 @@ letter-spacing: 0.02em;
     color: #ffffff; 
 }
 
-
+.form-input::placeholder {
+    color: #ffffff;
+}
+.footer-form-btn {
+    min-width: 165px; 
+    height: 40px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none; 
+    border-radius: 4px;
+}
+.form-button-icon {
+    margin-left: 16px;
+}
 
 
 
