@@ -635,10 +635,7 @@ gap: 8px;
     display: block;
     margin-bottom: 4px;
     color: #8e8f99;
-    display: flex;
-    gap: 4px;
-    align-items: center;
-    position:relative;
+    display: block;
 }
 .modal-input-wrap {
     position: relative; 
@@ -695,13 +692,13 @@ margin-bottom: 16px;
     outline: transparent; 
     resize: none; 
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    border-color: #4D5AE5;
+
 }
 
 .modal-checkbox {
     margin-bottom: 24px;
 }
-.modal-checkbox-input:checked + ladel span{
+.visually-hidden:checked ~ .modal-label .modal-span{
     background-color:#404bbf;
     border: none;
     fill: #F4F4FD;
