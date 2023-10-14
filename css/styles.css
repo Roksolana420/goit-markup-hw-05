@@ -705,11 +705,12 @@ margin-bottom: 16px;
     fill: transparent; 
 
 }
-.modal-checkbox-input:checked {
-    background-color: #404bbf;
+.input-class:checked + .label-class > .span-class {
+    background-color: #404BBF;
     border: none;
-    fill: #F4F4FD;
-}
+    fill: #FFFFFF;
+    border-color: #404BBF;
+    }
 .modal-link {
     color: #4d5ae5; 
 }
