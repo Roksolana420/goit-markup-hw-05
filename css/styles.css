@@ -701,7 +701,7 @@ margin-bottom: 16px;
 .modal-checkbox {
     margin-bottom: 24px;
 }
-.modal-checkbox-input:checked + span{
+.modal-checkbox-input:checked + ladel span{
     background-color:#404bbf;
     border: none;
     fill: #F4F4FD;
